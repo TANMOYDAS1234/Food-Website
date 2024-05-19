@@ -299,6 +299,7 @@ nav{
 @media (max-width: 500px) {
     #main{
         position: inherit;
+        overflow-x: hidden;
     }
     nav{
         justify-content: space-around;
@@ -326,7 +327,7 @@ nav{
         height: 100vh;
         left: -100%;
         background-color: #eef5ff;
-        position: absolute;
+        position: fixed;
         top: 0;
         z-index: 10;
         display: flex;
