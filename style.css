@@ -375,6 +375,7 @@ nav{
     }
 
     .rght{
+        position: relative;
         width: 100vw;
         height: 60vh;
     }
@@ -383,6 +384,7 @@ nav{
         width: 70vw;
     }
     #all-plate{
+        position: absolute;
         width: 50vw;
         height: 50vw;
     }
